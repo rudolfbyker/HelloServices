@@ -54,7 +54,7 @@ public class HelloService extends Service {
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
-        toast("Starting service");
+        toast("Starting service…");
 
         startForeground(ONGOING_NOTIFICATION_ID, notification);
 
